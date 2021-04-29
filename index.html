@@ -507,168 +507,6 @@
 
 
   
-    <article id="post-java/加密方式" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/03/23/java/%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/" target="_blank">123</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/03/23/java/%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/" class="archive-article-date">
-        <time datetime="2021-03-23T09:56:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-03-23</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <p>十六进制</p>
-<p>八进制</p>
-<p>二进制</p>
-<p>ascii码</p>
-<p>gbk编码</p>
-<p>福尔摩斯小人密码：每一个跳舞的小人实际上对应的是英文二十六个字母中的一个，而小人手中的旗子则表明该字母是单词的最后一个字母，如果仅仅是一个单词而不是句子，或者是句子中最后的一个单词，则单词中最后一个字母不必举旗。</p>
-<p>盲文加密：⡁⡇⡂⡁⡓⠁⠂⠃⠁⠂⠃=</p>
-<p>摩斯密码：..-..-…-..-</p>
-<p>Ook编码：Ook! Ook!</p>
-<p>凯撒加密：只需把每个字母都按字母表中的顺序依次后移几个字母即可（都是字符串）</p>
-<p>变异凯撒：可能会涉及到符号对应的ascii码。</p>
-<p>凯撒移位(中文版)：就是按照中文字在Unicode编码表中的顺序进行移位，可以用来加密中文的信息。 </p>
-<p>栅栏密码：栅栏密码把要加密的明文分成 N 个一组，然后把每组的第 1 个字连起来，形成一段无规律的话。 </p>
-<p>维吉尼亚密码：当选定“have”作为密钥时，加密过程是：密钥第一个字母为[h]，明文第一个为[t]，因此可以找到在h行t列中的字母[a]</p>
-<p>键盘移位：密文：kosm[sm 明文：jianpan</p>
-<p>数字小键盘密码<br>密文：852 74123 741236987 74269 78974123456 7412369<br>明文：I L O V E U </p>
-<p>手机键盘密码</p>
-<p>Unicode编码</p>
-<p>xxencode编码:将输入文本以每三个字节为单位进行编码。如果最后剩下的资料少于三个字节，不够的部份用零补齐。这三个字节共有24个Bit，以6bit为单位分为4个组，每个组以十进制来表示所出现的数值只会落在0到63之间。以所对应值的位置字符代替。它所选择的可打印字符是：+-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz，一共64个字符。跟base64打印字符相比，就是UUencode多一个“-” 字符，少一个”/” 字符。</p>
-<p>源文本： <code>The quick brown fox jumps over the lazy dog</code></p>
-<p>编码后： <code>hJ4VZ653pOKBf647mPrRi64NjS0-eRKpkQm-jRaJm65FcNG-gMLdt64FjNkc+</code></p>
-<p>UUencode:将输入文本以每三个字节为单位进行编码，如果最后剩下的资料少于三个字节，不够的部份用零补齐。三个字节共有24个Bit，以6-bit为单位分为4个组，每个组以十进制来表示所出现的字节的数值。这个数值只会落在0到63之间。然后将每个数加上32，所产生的结果刚好落在ASCII字符集中可打印字符（32-空白…95-底线）的范围之中。</p>
-<p>源文本： <code>The quick brown fox jumps over the lazy dog</code></p>
-<p>编码后： <code>M5&amp;AE(&#39;%U:6-K(&amp;)R;W=N(&amp;9O&gt;&quot;!J=6UP&lt;R!O=F5R(&#39;1H92!L87IY(&amp;1O9PH*</code></p>
-<p>url编码</p>
-<p>培根密码</p>
-<p>1.只有两种字符2.每一段的长度为 53.加密内容会有特殊的字体之分，亦或者大小写之分。</p>
-<p>曲路密码：需要事先双方约定密钥（也就是曲路路径）</p>
-<p>jsfuck：以只用 6 个字符 <code>[]()!+</code> 来编写 JavaScript 程序。</p>
-<p>brainfuck：</p>
-<p>++++++++++[&gt;+++++++&gt;++++++++++&gt;+++&gt;+&lt;&lt;&lt;&lt;-]++.&gt;+.+++++++..+++.&gt;++.&lt;&lt;+++++++++++++++..+++.——.——–.&gt;+.&gt;</p>
-<p>猪圈密码：是一种以格子为基础的简单替代式密码</p>
-<p>base64：大小写字母，0~9，+，-,64位组成的</p>
-<p>base32：Base32编码是使用32个可打印字符（字母A-Z和数字2-7）</p>
-<p>base16：使用16个ASCII可打印字符（数字0-9和字母A-F）对任意字节数据进行编码。没有=</p>
-<p>base36：base36编码是使用0~9的数字，加上所有26个字母，所有的字母要不全大写，要不全小写。</p>
-<p>base58：58=9个阿拉伯数字（去掉0）+24个大写字母（去掉I和O）+25小写字母（去掉l）</p>
-<p>base62：Base62编码是由10个数字、26个大写英文字母和26个小写英文字母组成</p>
-<p>base85：:d]&gt;JA62bf&lt;^o]!;,or.=a;i@9/17’@8oNU</p>
-<p>base91:从94个可打印ASCII字符（0x21-0x7E）中，以下三个字符被省略以构建base91字母：</p>
-<p>​            -（破折号，0x2D）\（反斜杠，0x5C）’（撇号，0x27）</p>
-<p>base92:比base91 多一个字符 〜</p>
-<p>rot5:意思是旋转5个位置，对数字进行编码，用当前数字往前数的第5个数字替换当前数字，例如当前为0，编码后变成5，当前为1，编码后变成6，以此类推顺序循环。</p>
-<p><strong>ROT13</strong>：只对字母进行编码，用当前字母往前数的第13个字母替换当前字母，例如当前为A，编码后变成N，当前为B，编码后变成O，以此类推顺序循环。</p>
-<p><strong>ROT18</strong>：这是一个异类，本来没有，它是将ROT5和ROT13组合在一起，为了好称呼，将其命名为ROT18。</p>
-<p><strong>ROT47</strong>：对数字、字母、常用符号进行编码，按照它们的ASCII值进行位置替换，用当前字符ASCII值往前数的第47位对应字符替换当前字符，例如当前为小写字母z，编码后变成大写字母K，当前为数字0，编码后变成符号_。用于ROT47编码的字符其ASCII值范围是33－126</p>
-<p>颜文字加密:</p>
-<p>国际音标加密：ɐɓɐɒɐɑɕɖɔɘɕɑɕɖ=</p>
-<p>音乐符号加密：♬♩♬♪♬♪♫♭♬♩‖♭‖♯‖§♯=</p>
-<p>箭头符号：↕↑↔↓↕↔←↑←→←↓←↑=</p>
-<p>花朵符号：✻✾✻✽✻✿✿✾❀✾✿✾✻✽✻✾✻✿✻✽✻✾=</p>
-<p><strong>UTF-8</strong> 使用一至四个字节为每个字符编码，其中大部分汉字采用三个字节编码，少量不常用汉字采用四个字节编码。因为 UTF-8 是可变长度的编码方式，相对于 Unicode 编码可以减少存储占用的空间，所以被广泛使用。</p>
-<p>UTF-16是Unicode字符集的一种转换格式，十六进制编码。UTF-16以２字节或４字节编码处理Unicode字符，用在网页上可以同一页面显示多种语言文字。</p>
-<p><strong>UTF-32</strong> 使用四个字节为每个字符编码，使得 UTF-32 占用空间通常会是其它编码的二到四倍。UTF-32 与 UTF-16 一样有大尾序和小尾序之别，编码前会放置 U+0000FEFF 或 U+FFFE0000 以区分</p>
-<p>中文电码：0086   1562   2535   5174              人      工     智     能</p>
-<p>五笔编码</p>
-<p>敲击码：通过使用一系列的点击声音来编码而命名，敲击码是基于5×5方格波利比奥斯方阵来实现的，不同点是是用K字母被整合到C中。</p>
-<p>敲击码表</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#!shell</span><br><span class="line">  1  2  3  4  5</span><br><span class="line">1 A  B C&#x2F;K D  E</span><br><span class="line">2 F  G  H  I  J </span><br><span class="line">3 L  M  N  O  P</span><br><span class="line">4 Q  R  S  T  U</span><br><span class="line">5 V  W  X  Y  Z</span><br></pre></td></tr></table></figure>
-
-<p>例如</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.. .代表第二行第一个，既F</span><br></pre></td></tr></table></figure>
-
-<p>代表第二行第一个，既F</p>
-<p>txt文件的 零宽字符隐写</p>
-<p>autokey密码加密</p>
-
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">123</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/123//" class="article-tag-list-link color4">123</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/03/23/java/%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
 
 
@@ -789,19 +627,15 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">sql注入</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">HW</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">命令执行</a>
+                <a href="javascript:void(0)" class="js-tag color1">sql注入</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">123</a>
+                <a href="javascript:void(0)" class="js-tag color5">命令执行</a>
               </li>
             
             <div class="clearfix"></div>
